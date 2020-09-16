@@ -1,0 +1,37 @@
+.menu-navigation {
+    background-color: #715a4a;
+    position: sticky;
+    top: 97px;
+}
+.menu-navigation ul {
+    display: flex;
+    justify-content: space-around;
+}
+.menu-navigation li {
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+.menu-navigation a {
+    color: white;
+}
+.menu-navigation li:hover {
+    cursor: pointer;
+    background-color: #a28067;
+}
+.menu-container {
+    padding: 60px;
+}
+h2 {
+    text-align: center;
+}
+.line-title .line {
+    height: 1px;
+    background-color: black;
+    width: 100%;
+}
+
+/* -----style for card----- */
+.card img {
+    width: 250px;
+}
