@@ -1,0 +1,117 @@
+body {
+  background: #f1f1f1;
+}
+.title-spaced {
+  font-size: 1.2rem;
+  font-weight: 300;
+  letter-spacing: 4px;
+  position: relative;
+  margin: 2rem 0 1rem;
+  text-align: center;
+  color: #aaa;
+}
+.title-spaced:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  height: 6px;
+  border-top: 1px solid rgba(0,0,0, 0.05);
+  border-bottom: 1px solid rgba(0,0,0, 0.05);
+  background: 0;
+  width: 100%;
+  left: 0;
+  top: 50%;
+  margin-top: -3px;
+}
+.title-spaced span {
+  padding: 5px 20px;
+  background-color: #f1f1f1;
+  z-index: 100;
+  position: relative;
+}
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0, 0.05);
+}
+.menu-list .item {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+}
+.menu-list .item a {
+  font-size: 30px;
+  margin: 0 .5rem;
+}
+.menu-list .item .badge {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  color: #fff;
+}
+.menu-list .item:first-child img {
+  border-top-left-radius: 6px;
+}
+.menu-list .item:last-child img {
+  border-bottom-left-radius: 6px;
+}
+.menu-list .item img {
+    width: 80px;
+    margin-right: 0.5rem!important;
+}
+.menu-list .item p {
+  line-height: 120%;
+  font-size: 0.7rem;
+  margin: 0;
+  color: #999;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+.menu-list .item h5 {
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+}
+.cart-button {
+  position: relative;
+}
+.cart-button .badge {
+  position: absolute;
+  top: 1px;
+  right: -1px;
+  border: 1px solid #fff;
+}
+.cart-button-empty {
+  color: #aaa;
+}
+.cart-button-empty .badge {
+  background-color: #bbb;
+  opacity: 0.5;
+}
+.cart-table a.bt-remove {
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .menu-list .item a {
+    font-size: 36px;
+    margin: 0 1rem;
+  }
+  .menu-list .item h5 {
+    font-size: 1.4rem;
+  }
+  .menu-list .item img {
+    width: 150px;
+    margin-right: 1rem!important;
+  }
+  .menu-list .item p {
+    line-height: 140%;
+    font-size: 1rem;
+  }
+}
