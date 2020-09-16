@@ -1,14 +1,18 @@
 body {
-  background: #f1f1f1;
+  background: #fff;
 }
 .title-spaced {
+  position: sticky;
+  top: 0px;
+  background: #fff;
   font-size: 1.2rem;
   font-weight: 300;
   letter-spacing: 4px;
-  position: relative;
   margin: 2rem 0 1rem;
   text-align: center;
   color: #aaa;
+  z-index: 1000;
+  padding: 1rem 0;
 }
 .title-spaced:after {
   content: " ";
@@ -25,7 +29,7 @@ body {
 }
 .title-spaced span {
   padding: 5px 20px;
-  background-color: #f1f1f1;
+  background-color: #fff;
   z-index: 100;
   position: relative;
 }
@@ -44,7 +48,7 @@ body {
   justify-content: left;
   align-items: center;
   width: 100%;
-  border-bottom: 1px solid #eee;
+  border: 1px solid #eee;
 }
 .menu-list .item a {
   font-size: 30px;
@@ -56,11 +60,19 @@ body {
   top: 10px;
   color: #fff;
 }
+.menu-list .item:first-child,
 .menu-list .item:first-child img {
   border-top-left-radius: 6px;
 }
+.menu-list .item:first-child {
+  border-top-right-radius: 6px;
+}
+.menu-list .item:last-child,
 .menu-list .item:last-child img {
   border-bottom-left-radius: 6px;
+}
+.menu-list .item:last-child {
+  border-bottom-right-radius: 6px;
 }
 .menu-list .item img {
     width: 80px;
