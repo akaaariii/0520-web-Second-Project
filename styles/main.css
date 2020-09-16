@@ -25,19 +25,94 @@ header, footer {
 /* -----style for header----- */
 header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     position: fixed;
     width: 100%;
+    z-index: 999;
 }
+button.header-menu {
+    display: block;
+    width: 30px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0;
+    margin-top: -20px;
+}
+.button.header-menu .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap; 
+    border: 0;
+}
+
+/* -----style for humberger bar----- */
+button.header-menu .bar {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    top: 10px;
+}
+button.header-menu .bar:before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    transition: all 0.3s ease-in-out;
+}
+button.header-menu .bar:after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: -10px;
+    left: 0;
+    transition: all 0.3s ease-in-out;
+}
+.button-content:focus {
+    outline: none;
+}
+.show button.header-menu .bar {
+    background-color: transparent;
+}
+.show button.header-menu .bar:before {
+    transform: rotate(45deg);
+    top: 0;
+}
+.show button.header-menu .bar:after {
+    transform: rotate(-45deg);
+    top: 0;
+}
+
 header nav {
-    width: 50%;
-    display: flex;
-    align-items: center;
+    height: 0;
+    overflow: hidden;
+    width: calc(100% + 60px);
+    transition: height 0.3 ease-in-out;
+}
+.show header nav {
+    height: auto;
 }
 header nav ul{
-    width: 100%;
+    /* width: 100%; */
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+header nav li {
+    padding-top: 20px;
 }
 header a {
     color: black;
@@ -46,19 +121,27 @@ header a {
 header a:hover {
     color: #0c820c;
 }
-header button {
+.btn-login {
     border: none;
     background-color: #ecbaa8;
     width: 100px;
+    outline: none;
+    font-size: .8em;
 }
-header button:hover {
+.btn-login:hover {
     cursor: pointer;
     color: #0c820c;
 }
 
+
+
+
 /* -----style for footer----- */
 footer div {
     margin-bottom: 30px;
+}
+.sns-icon {
+    float: left;
 }
 .sns-icon i {
     margin-right: 10px;
@@ -67,20 +150,66 @@ footer div {
 .sns-icon i:hover {
     cursor: pointer;
 }
-.footer-link {
-    display: flex;
-    width: 60%;
-}
 .footer-link ul{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+    float: right;
+    width: 30%;
     font-size: .8em;
+}
+.footer-link li {
+    margin-top: 7px;
 }
 .footer-link li:hover {
     cursor: pointer;
     color: #0c820c;
 }
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 small {
     color: #4d4c4c;
+}
+
+@media(min-width: 768px){
+    .footer-link {
+        display: flex;
+        width: 90%;
+    }
+    .footer-link ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media(min-width: 1024px){
+    header nav {
+        display: block;
+        height: auto;
+    }
+    header nav ul {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    header nav li {
+        padding-top: 0;
+    }
+    button.header-menu {
+        display: none;
+    }
+    .header-menu-list {
+        display: flex;
+        width: 50%;
+        align-items: center;
+    }
+
+    .footer-link {
+        display: flex;
+        width: 90%;
+    }
+    .footer-link ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
 }

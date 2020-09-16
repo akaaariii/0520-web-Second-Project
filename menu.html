@@ -15,19 +15,27 @@
                 <img src="images/logo.svg" alt="logo">
             </a>
         </div>
-        <nav>
-            <ul>
-                <li><a href="">ORDER ONLINE</a></li>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="menu.html">MENU</a></li>
-                <li><a href="reservation.html">RESERVATION</a></li>
-                <li><a href="location.html">LOCATION</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-            </ul>
-            <button id="btn-modal-show">
+        <button class="header-menu" id="header-menu">
+            <span class="button-content" tabindex="-1">
+                <span class="sr-only">Menu</span>
+                <span class="bar"></span>
+            </span>
+        </button>
+        <div class="header-menu-list">
+            <nav>
+                <ul>
+                    <li><a href="">ORDER ONLINE</a></li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="reservation.html">RESERVATION</a></li>
+                    <li><a href="location.html">LOCATION</a></li>
+                    <li><a href="contact.html">CONTACT</a></li> 
+                </ul>
+            </nav>
+            <button id="btn-modal-show" class="btn-login">
                 <i class="fas fa-user-alt"></i> SIGN IN
             </button>
-        </nav>
+        </div>
     </header>
     <main>
         <div class="hero">
@@ -308,18 +316,20 @@
             <i class="fab fa-twitter-square"></i>
             <i class="fab fa-linkedin"></i>
         </div>
-        <div class="footer-link">
+        <div class="footer-link clearfix">
             <ul>
                 <li>OUR STORY</li>
                 <li>FEEDBACK</li>
                 <li>BLOG</li>
                 <li>SUPPLIERS</li>
                 <li>TERMS OF USE</li>
+                <li>PRIVACY</li>
                 <li>ACCESSIBILITY POLICY</li>
             </ul>
         </div>
         <p><small>For Educational Use Only</small><br>
         <small>&copy;2020 Italian Restaurant</small></p>
     </footer>
+    <script src="scripts/main.js"></script>
 </body>
 </html>
