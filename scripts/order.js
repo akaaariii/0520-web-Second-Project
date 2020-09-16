@@ -28,7 +28,7 @@ function createHtmlList() {
             '<div class="item">' +
               '<img class="mr-3" src="' + products[i].image + '" alt="' + products[i].name + '">' +
               '<div>' +
-                '<h5>' + products[i].name + ' - $'+ products[i].price +'</h5>' +
+                '<h5>' + products[i].name + ' - ' + dollarFormat(products[i].price) + '</h5>' +
                 '<p>' + products[i].description + '</p>' +
               '</div>' +
               '<a class="ml-auto" id="btn_add" data-id="' + products[i].id + '" onclick="productAdded(this)" href="#purchase" >' +
@@ -37,5 +37,11 @@ function createHtmlList() {
             '</div>');
           $("#"+ products[i].group +"-list").append(html);
     }
+}
 
+function dollarFormat(value) {
+    value = value.toString();
+    let pos = value.length - 2;
+    let newValue = "$" + value.substr(0, pos) + "." + value.substr(pos)
+    return newValue;
 }
