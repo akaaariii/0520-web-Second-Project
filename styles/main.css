@@ -18,7 +18,7 @@ img {
     height: auto;
 }
 header, footer {
-    background-color: #D1E0D7;
+    background-color: #ecbaa8;
     padding: 15px 30px;
 }
 
@@ -44,16 +44,16 @@ header a {
     font-size: .8em;
 }
 header a:hover {
-    color: #064906;
+    color: #0c820c;
 }
 header button {
     border: none;
-    background-color: #D1E0D7;
+    background-color: #ecbaa8;
     width: 100px;
 }
 header button:hover {
     cursor: pointer;
-    color: #064906;
+    color: #0c820c;
 }
 
 /* -----style for footer----- */
@@ -79,7 +79,7 @@ footer div {
 }
 .footer-link li:hover {
     cursor: pointer;
-    color: #064906;
+    color: #0c820c;
 }
 small {
     color: #4d4c4c;
