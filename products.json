@@ -1,0 +1,190 @@
+[
+  {
+    "id": "1",
+    "group": "appetizers",
+    "name": "Garlic Cheese Toast",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price": 750,
+    "image": "images/product_placeholder.svg"
+  },
+  {
+    "id": "2",
+    "group": "appetizers",
+    "name": "Chicken Wings",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price": 1050,
+    "image": "images/product_placeholder.svg"
+  },
+  {
+    "id": "3",
+    "group": "appetizers",
+    "name": "Calamari",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price": 1025,
+    "image": "images/product_placeholder.svg"
+  },
+  {
+    "id": "4",
+    "group": "appetizers",
+    "name": "Caesar Salad",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price": 1150,
+    "image": "images/product_placeholder.svg"
+  },
+  {
+    "id": "5",
+    "group": "appetizers",
+    "name": "Pumpkin Soup",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price": 1075,
+    "image": "images/product_placeholder.svg"
+  },
+  {
+    "id": "6",
+    "group": "appetizers",
+    "name": "Shrimp Cocktail",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price": 1150,
+    "image": "images/product_placeholder.svg"
+  },
+  {
+    "id": "7",
+    "group": "main",
+    "name": "Spaguetti with Meatballs",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price": 1695,
+    "image": "images/product_placeholder.svg"
+  },
+  {
+    "id": "8",
+    "group": "main",
+    "name": "Spaguetti Carbonara",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price": 1795,
+    "image": "images/product_placeholder.svg"
+  },
+  {
+    "id": "9",
+    "group": "main",
+    "name": "Margherita Pizza",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price": 1650,
+    "image": "images/product_placeholder.svg"
+  },
+  {
+    "id": "10",
+    "group": "main",
+    "name": "Pepperoni Pizza",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price": 1650,
+    "image": "images/product_placeholder.svg"
+  },
+  {
+    "id": "11",
+    "group": "main",
+    "name": "Lasagna Pizza",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price": 1725,
+    "image": "images/product_placeholder.svg"
+  },
+  {
+    "id": "12",
+    "group": "main",
+    "name": "Pescatore",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price": 1795,
+    "image": "images/product_placeholder.svg"
+  },
+  {
+    "id": "13",
+    "group": "main",
+    "name": "Roasted Garlic Grilled Chicken",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price": 2075,
+    "image": "images/product_placeholder.svg"
+  },
+  {
+    "id": "14",
+    "group": "main",
+    "name": "Prime Rib",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price": 2250,
+    "image": "images/product_placeholder.svg"
+  },
+  {
+    "id": "15",
+    "group": "main",
+    "name": "New York Striploin",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price": 2495,
+    "image": "images/product_placeholder.svg"
+  },
+  {
+    "id": "16",
+    "group": "main",
+    "name": "Teriyaky Sirloin",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price": 2495,
+    "image": "images/product_placeholder.svg"
+  },
+  {
+    "id": "17",
+    "group": "desserts",
+    "name": "NYC Cheesecake",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price": 1000,
+    "image": "images/product_placeholder.svg"
+  },
+  {
+    "id": "18",
+    "group": "desserts",
+    "name": "Pumpkin Pie",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price": 1000,
+    "image": "images/product_placeholder.svg"
+  },
+  {
+    "id": "19",
+    "group": "desserts",
+    "name": "Chocolate Pudding",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price": 1000,
+    "image": "images/product_placeholder.svg"
+  },
+  {
+    "id": "20",
+    "group": "desserts",
+    "name": "Strawberry Sundae",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price": 1000,
+    "image": "images/product_placeholder.svg"
+  },
+  {
+    "id": "21",
+    "group": "main",
+    "name": "Beef Stroganoff",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price": 2099,
+    "image": "images/product_placeholder.svg",
+    "new": true
+  },
+  {
+    "id": "22",
+    "group": "appetizers",
+    "name": "Spinach Salad",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price": 1150,
+    "image": "images/product_placeholder.svg",
+    "new": true
+  },
+  {
+    "id": "23",
+    "group": "main",
+    "name": "Lobster and Prawn Ravioli",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "price": 1975,
+    "image": "images/product_placeholder.svg",
+    "new": true
+  }
+
+]
