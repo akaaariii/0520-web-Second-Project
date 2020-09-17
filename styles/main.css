@@ -164,3 +164,8 @@ small {
         margin-right: 20px;
     }
 }
+
+.modal form {
+    max-width: 380px;
+    margin: 0 auto;
+}
