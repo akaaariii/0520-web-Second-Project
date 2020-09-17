@@ -12,11 +12,11 @@
     font-weight: lighter;
     letter-spacing: .2em;
 }
-
 .menu-navigation {
     background-color: #715a4a;
     position: sticky;
-    top: 97px;
+    top: 0px;
+    z-index: 1;
 }
 .menu-navigation ul {
     display: flex;
@@ -47,8 +47,9 @@ h2 {
 }
 
 /* -----style for card----- */
-.card img {
+.card-item img {
     width: 250px;
+    margin-bottom: 20px;
 }
 .card-container {
     padding: 30px;
@@ -56,7 +57,7 @@ h2 {
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.card {
+.card-item {
     display: flex;
     flex-direction: column;
 }
@@ -66,6 +67,7 @@ h2 {
     justify-content: space-between;
 }
 h3 {
+    font-size: 1rem;
     max-width: 80%;
     flex: 1 0 auto;
 }
@@ -80,22 +82,22 @@ h3 {
 .description p {
     margin-top: 0;
     margin-bottom: 35px;
-    font-size: .9em;
+    font-size: .7em;
 }
 .contents-inner {
-    padding-top: 155px;
-    margin-top: -155px;
+    padding-top: 100px;
+    margin-top: -100px;
 }
 
 @media(min-width: 768px){
-    .card {
+    .card-item {
         padding: 15px;
         width: 50%;
     }
 }
 
 @media(min-width: 1024px){
-    .card {
+    .card-item {
         padding: 20px;
         width: 33.3%;
     }
