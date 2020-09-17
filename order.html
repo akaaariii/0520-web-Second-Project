@@ -7,45 +7,104 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="styles/main.css"> -->
+    <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/order.css">
 </head>
 <body>
   <header>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.svg" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainMenu">
+                <ul class="navbar-nav ml-auto">
+                    <li>
+                        <a class="nav-link active" href="order.html">ORDER ONLINE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">MENU</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="reservation.html">RESERVATION</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="location.html">LOCATION</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <button class="btn btn-sm btn-login btn-outline-dark" type="button">
+                <i class="fas fa-user-alt"></i><span> SIGN IN</span>
+            </button>
+        </nav>
+    </div>
   </header>
     
-    <main>
-      <div class="container py-5">
-        <div class="d-flex w-100 justify-content-between align-items-center">
-          <h2>Order Now</h2>
-          <a class="btn btn-lg cart-button" href="#" data-toggle="modal" data-target="#orderModal" >
-            <i class="fas fa-shopping-cart"></i>
-            <small>
-              <span class="badge badge-pill badge-danger">0</span>
-            </small>
-          </a>
-        </div>
-
-        <div class="title-spaced">
-          <span>APPETIZERS</span>
-        </div>
-        <div class="menu-list" id="appetizers-list"></div>
-
-        <div class="title-spaced">
-          <span>MAIN</span>
-        </div>
-        <div class="menu-list" id="main-list"></div>
-
-        <div class="title-spaced">
-          <span>DESSERTS</span>
-        </div>
-        <div class="menu-list" id="desserts-list"></div>
-
+  <main>
+    <div class="container py-5">
+      <div class="d-flex w-100 justify-content-between align-items-center">
+        <h2>Order Online</h2>
+        <a class="btn btn-lg cart-button" href="#" data-toggle="modal" data-target="#orderModal" >
+          <i class="fas fa-shopping-cart"></i>
+          <small>
+            <span class="badge badge-pill badge-danger">0</span>
+          </small>
+        </a>
       </div>
-    </main>
-  <footer>
-  </footer>
 
+      <div class="title-spaced">
+        <span>APPETIZERS</span>
+      </div>
+      <div class="menu-list" id="appetizers-list"></div>
+
+      <div class="title-spaced">
+        <span>MAIN</span>
+      </div>
+      <div class="menu-list" id="main-list"></div>
+
+      <div class="title-spaced">
+        <span>DESSERTS</span>
+      </div>
+      <div class="menu-list" id="desserts-list"></div>
+
+    </div>
+  </main>
+
+  <footer>
+      <div class="container">
+          <div class="footer-link clearfix">
+              <ul>
+                  <li><a href="#">OUR STORY</a></li>
+                  <li><a href="#">FEEDBACK</a></li>
+                  <li><a href="#">BLOG</a></li>
+                  <li><a href="#">SUPPLIERS</a></li>
+                  <li><a href="#">TERMS OF USE</a></li>
+                  <li><a href="#">PRIVACY</a></li>
+                  <li><a href="#">ACCESSIBILITY POLICY</a></li>
+              </ul>
+          </div>
+          <div class="sns-icon text-center"> 
+              <p>CONTACT WITH US</p>
+              <i class="fab fa-facebook-square"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-twitter-square"></i>
+              <i class="fab fa-linkedin"></i>
+          </div>
+      </div>
+      <div class="foot container">
+          <p><small>For Educational Use Only</small><br>
+              <small>&copy;2020 Italian Restaurant</small></p>
+      </div>
+  </footer>
 
   <div class="modal" tabindex="-1" id="orderModal">
     <div class="modal-dialog modal-lg">
