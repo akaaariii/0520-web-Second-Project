@@ -1,16 +1,8 @@
-.hero img {
-    position: relative;
-    z-index: -2;
-    opacity: .8;
+.carousel-caption h1 {
+    font-size: 1.5em;
 }
-.hero h1 {
-    position: absolute;
-    z-index: -1;
-    top: 20%;
-    left: 5%;
-    font-size: 3.5em;
-    font-weight: lighter;
-    letter-spacing: .2em;
+.carousel-caption p {
+    font-size: .8em;
 }
 .menu-navigation {
     background-color: #715a4a;
@@ -90,6 +82,9 @@ h3 {
 }
 
 @media(min-width: 768px){
+    .carousel-caption h1 {
+        font-size: 3.5em;
+    }
     .card-item {
         padding: 15px;
         width: 50%;
@@ -97,6 +92,12 @@ h3 {
 }
 
 @media(min-width: 1024px){
+    .carousel-caption h1 {
+        font-size: 4em;
+    }
+    .carousel-caption p {
+        font-size: 1.2em;
+    }
     .card-item {
         padding: 20px;
         width: 33.3%;
