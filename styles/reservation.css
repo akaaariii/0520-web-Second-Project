@@ -1,6 +1,6 @@
 
 main {
-    background-image: url("pizza.jpg");
+    background-image: url("../images/pizza.jpg");
     background-color: rgb(255, 255, 255,0.2);
     background-blend-mode: lighten;
     background-position: center center;
@@ -10,7 +10,7 @@ main {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .selects {

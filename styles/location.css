@@ -1,5 +1,9 @@
 
-.container {
+main {
+    background-color: rgb(247, 221, 187);
+}
+
+.container_location {
     font-family: serif;
     font-weight: bold;
 }
@@ -13,4 +17,8 @@
     text-align: center;
     background-color: cadetblue;
     font-size: 15px;
+}
+
+.container_location h1 {
+    color: darkgoldenrod;
 }
