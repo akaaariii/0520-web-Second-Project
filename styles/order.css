@@ -1,16 +1,16 @@
-body {
-  background: #fff;
+main {
+  background: #fff1e1;
 }
 .title-spaced {
   position: sticky;
   top: 0px;
-  background: #fff;
+  background: #fff1e1;
   font-size: 1.2rem;
   font-weight: 300;
   letter-spacing: 4px;
   margin: 2rem 0 1rem;
   text-align: center;
-  color: #aaa;
+  color: rgba(0,0,0, 0.6);
   z-index: 1000;
   padding: 1rem 0;
 }
@@ -19,8 +19,8 @@ body {
   display: block;
   position: absolute;
   height: 6px;
-  border-top: 1px solid rgba(0,0,0, 0.05);
-  border-bottom: 1px solid rgba(0,0,0, 0.05);
+  border-top: 1px solid rgba(0,0,0, 0.1);
+  border-bottom: 1px solid rgba(0,0,0, 0.1);
   background: 0;
   width: 100%;
   left: 0;
@@ -29,7 +29,7 @@ body {
 }
 .title-spaced span {
   padding: 5px 20px;
-  background-color: #fff;
+  background-color: #fff1e1;
   z-index: 100;
   position: relative;
 }
