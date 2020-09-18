@@ -1,0 +1,28 @@
+
+main {
+    background-image: url("pizza.jpg");
+    background-color: rgb(255, 255, 255,0.2);
+    background-blend-mode: lighten;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: serif;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.selects {
+    width: 250px;
+    height: 50px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+
+.select_date {
+    width: 80px;
+    height: 50px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}

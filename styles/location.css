@@ -1,0 +1,16 @@
+
+.container {
+    font-family: serif;
+    font-weight: bold;
+}
+.branch {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.branch p {
+    margin: 0;
+    text-align: center;
+    background-color: cadetblue;
+    font-size: 15px;
+}
