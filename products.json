@@ -21,7 +21,7 @@
     "name": "Calamari",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
     "price": 1025,
-    "image": "images/product_placeholder.svg"
+    "image": "images/products/calamari.jpg"
   },
   {
     "id": "4",
@@ -69,7 +69,7 @@
     "name": "Margherita Pizza",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
     "price": 1650,
-    "image": "images/product_placeholder.svg"
+    "image": "images/products/margherita.jpg"
   },
   {
     "id": "10",
@@ -125,7 +125,7 @@
     "name": "Teriyaky Sirloin",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
     "price": 2495,
-    "image": "images/product_placeholder.svg"
+    "image": "images/products/sirloin.jpg"
   },
   {
     "id": "17",
@@ -133,7 +133,7 @@
     "name": "NYC Cheesecake",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
     "price": 1000,
-    "image": "images/product_placeholder.svg"
+    "image": "images/products/cheesecake.jpg"
   },
   {
     "id": "18",
@@ -165,7 +165,7 @@
     "name": "Beef Stroganoff",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
     "price": 2099,
-    "image": "images/product_placeholder.svg",
+    "image": "images/products/beef-stroganoff.jpg",
     "new": true
   },
   {
