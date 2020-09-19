@@ -1,6 +1,5 @@
 let products = [];
 let cartItems = [];
-let finalAmount = 0;
 
 $(document).ready(function () {
   loadProducts();
@@ -63,11 +62,13 @@ function removeItem(productId) {
 function updatedCartItems() {
   let html = '';
   let totalItems = 0;
+  let totalValue = 0;
   
   for (let i=0; i < cartItems.length; i++) {
     if (cartItems[i]) {
       let product = products.find(item => item.id == i);
       totalItems += cartItems[i];
+      totalValue += cartItems[i] * product.price;
       html += (`
         <tr>
           <td>`+ product.name +` - `+ dollarFormat(product.price) +`</td>
@@ -84,6 +85,13 @@ function updatedCartItems() {
   if (totalItems > 0) {
     $("#cartCount").html(totalItems);
     $("#btnOrderNow").removeClass("disabled");
+
+    html += (`
+      <tr>
+        <td><strong>Total</strong></td>
+        <td colspan="2" class="text-right" ><strong>`+ dollarFormat(totalValue) +`</strong></td>
+      </tr>`);
+
   } else {
     $("#cartCount").html("0");
     $("#btnOrderNow").addClass("disabled");
