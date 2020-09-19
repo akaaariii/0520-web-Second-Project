@@ -56,9 +56,7 @@
         <h2>Order Online</h2>
         <a class="btn btn-lg cart-button" href="#" data-toggle="modal" data-target="#modalOrder" >
           <i class="fas fa-shopping-cart"></i>
-          <small>
-            <span class="badge badge-pill badge-danger">0</span>
-          </small>
+          <span id="cartCount" class="badge badge-pill badge-danger">0</span>
         </a>
       </div>
 
@@ -110,31 +108,33 @@
   <div class="modal" tabindex="-1" id="modalOrder">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Cart</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
         <div class="modal-body">
-          <table class="table cart-table" >
-            <thead>
-              <tr>
-                <th>Item</th>
-                <th class="text-right">Qtd</th>
-                <th class="text-center">Remove</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Beef Stroganoff - $20.99</td>
-                <td class="text-right">1</td>
-                <td class="text-center">
-                  <a class="bt-remove" href="#" >
-                    <i class="fas fa-times-circle text-danger"></i>
-                  </a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+          <div id="cartItems">
+            <table class="table cart-table" id="cart-table" >
+              <thead>
+                <tr>
+                  <th>Item</th>
+                  <th class="text-right">Qtd</th>
+                  <th class="text-center">Remove</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="3" class="text-center" height="150"><br><br>No items added yet.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-success">Order Now</button>
+          <button type="button" class="btn btn-light" data-dismiss="modal">Continue Shopping</button>
+          <button type="button" class="btn btn-success disabled" id="btnOrderNow">Checkout Now</button>
         </div>
       </div>
     </div>
