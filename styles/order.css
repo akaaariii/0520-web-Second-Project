@@ -92,12 +92,14 @@ main {
 }
 .cart-button {
   position: relative;
+  font-size: 24px;
 }
 .cart-button .badge {
+  font-size: 12px;
   position: absolute;
   top: 1px;
   right: -1px;
-  border: 1px solid #fff;
+  border: 2px solid #fff1e1;
 }
 .cart-button-empty {
   color: #aaa;
