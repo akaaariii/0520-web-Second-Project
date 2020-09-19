@@ -109,6 +109,15 @@ section .address p {
 .address {
     margin: auto;
 }
+.booking {
+    position: fixed;
+    bottom: 20%;
+    right: 5%;
+    display: none;
+}
+.booking:hover {
+    transform: scale(1.1);
+}
 
 @media(min-width: 768px){
     .carousel-caption h1 {
@@ -173,5 +182,8 @@ section .address p {
     }
     .location .address h4 {
         font-size: 2em;
+    }
+    .booking {
+        display: block;
     }
 }
