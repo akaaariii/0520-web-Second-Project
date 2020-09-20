@@ -3,23 +3,23 @@
     "id": "1",
     "group": "appetizers",
     "name": "Garlic Cheese Toast",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "description": "Mozzarella, parmesan, and cheddar cheeses with an extra kick of garlic.",
     "price": 750,
-    "image": "images/product_placeholder.svg"
+    "image": "images/products/garlic-cheese-toast.jpg"
   },
   {
     "id": "2",
     "group": "appetizers",
     "name": "Chicken Wings",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "description": "Honey Garlic, Barbeque or Hot Sauce.",
     "price": 1050,
-    "image": "images/product_placeholder.svg"
+    "image": "images/products/chicken-wings.jpg"
   },
   {
     "id": "3",
     "group": "appetizers",
     "name": "Calamari",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "description": "Lightly fried, ginger garlic sauce.",
     "price": 1025,
     "image": "images/products/calamari.jpg"
   },
@@ -27,47 +27,47 @@
     "id": "4",
     "group": "appetizers",
     "name": "Caesar Salad",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "description": "Crisp romaine, croutons, parmesan, creamy caesar dressing.",
     "price": 1150,
-    "image": "images/product_placeholder.svg"
+    "image": "images/products/caesar-salad.jpg"
   },
   {
     "id": "5",
     "group": "appetizers",
     "name": "Pumpkin Soup",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "description": "Pumpkin, cinnamon, nutmeg, cloves, cayenne pepper.",
     "price": 1075,
-    "image": "images/product_placeholder.svg"
+    "image": "images/products/pumpkin-soup.jpg"
   },
   {
     "id": "6",
     "group": "appetizers",
     "name": "Shrimp Cocktail",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "description": "Chilled jumbo shrimp, martini cocktail sauce.",
     "price": 1150,
-    "image": "images/product_placeholder.svg"
+    "image": "images/products/shrimp-cocktail.jpg"
   },
   {
     "id": "7",
     "group": "main",
     "name": "Spaguetti with Meatballs",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "description": "Hand rolled meatballs, Italian marinara sauce, fresh parmesan cheese.",
     "price": 1695,
-    "image": "images/product_placeholder.svg"
+    "image": "images/products/spaguetti-with-meatballs.jpg"
   },
   {
     "id": "8",
     "group": "main",
     "name": "Spaguetti Carbonara",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "description": "An Italian classic made with fresh eggs, Parmesan cheese, Pancetta, fresh cracked pepper.",
     "price": 1795,
-    "image": "images/product_placeholder.svg"
+    "image": "images/products/spaguetti-carbonara.jpg"
   },
   {
     "id": "9",
     "group": "main",
     "name": "Margherita Pizza",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "description": "Pesto marinated tomatoes, parmesan, mozzarella, basil.",
     "price": 1650,
     "image": "images/products/margherita.jpg"
   },
@@ -75,23 +75,23 @@
     "id": "10",
     "group": "main",
     "name": "Pepperoni Pizza",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "description": "Double pepperoni topped with an extra layer of cheese.",
     "price": 1650,
-    "image": "images/product_placeholder.svg"
+    "image": "images/products/pepperoni-pizza.svg"
   },
   {
     "id": "11",
     "group": "main",
     "name": "Lasagna Pizza",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "description": "Layer upon layer of pasta, meat sauce, mozzarella, ricotta, parmesan cheeses.",
     "price": 1725,
-    "image": "images/product_placeholder.svg"
+    "image": "images/products/lasagna-pizza.jpg"
   },
   {
     "id": "12",
     "group": "main",
     "name": "Pescatore",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "description": "Prawns, mussels, squid, mixed seafood tomato sauce.",
     "price": 1795,
     "image": "images/product_placeholder.svg"
   },
@@ -99,31 +99,31 @@
     "id": "13",
     "group": "main",
     "name": "Roasted Garlic Grilled Chicken",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "description": "A breast of chicken marinated with garlic and lemon.",
     "price": 2075,
-    "image": "images/product_placeholder.svg"
+    "image": "images/products/roasted-garlic-grilled-chicken.jpg"
   },
   {
     "id": "14",
     "group": "main",
     "name": "Prime Rib",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "description": "Horseradish, red wine herb jus. Available in 10 oz, 14 oz.",
     "price": 2250,
-    "image": "images/product_placeholder.svg"
+    "image": "images/products/prime-rib.jpg"
   },
   {
     "id": "15",
     "group": "main",
     "name": "New York Striploin",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "description": "Available in 12 oz.",
     "price": 2495,
-    "image": "images/product_placeholder.svg"
+    "image": "images/products/new-york-striploin.jpg"
   },
   {
     "id": "16",
     "group": "main",
     "name": "Teriyaky Sirloin",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "description": "Available in 8 oz.",
     "price": 2495,
     "image": "images/products/sirloin.jpg"
   },
@@ -131,7 +131,7 @@
     "id": "17",
     "group": "desserts",
     "name": "NYC Cheesecake",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "description": "Graham cracker crust, seasonal fruit, whipped chantilly cream.",
     "price": 1000,
     "image": "images/products/cheesecake.jpg"
   },
@@ -139,31 +139,31 @@
     "id": "18",
     "group": "desserts",
     "name": "Pumpkin Pie",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "description": "Cinnamon and sugar, chantilly cream.",
     "price": 1000,
-    "image": "images/product_placeholder.svg"
+    "image": "images/products/pumpkin-pie.jpg"
   },
   {
     "id": "19",
     "group": "desserts",
     "name": "Chocolate Pudding",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "description": "Warm pudding cake, chocolate and toffee sauces, vanilla ice cream, maple crumble.",
     "price": 1000,
-    "image": "images/product_placeholder.svg"
+    "image": "images/products/chocolate-pudding.jpg"
   },
   {
     "id": "20",
     "group": "desserts",
     "name": "Strawberry Sundae",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "description": "Vanilla ice cream, strawberry sauces, whipped cream.",
     "price": 1000,
-    "image": "images/product_placeholder.svg"
+    "image": "images/products/strawberry-sundae.jpg"
   },
   {
     "id": "21",
     "group": "main",
     "name": "Beef Stroganoff",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "description": "Tender chunks of beef coated in a luscious creamy sauce.",
     "price": 2099,
     "image": "images/products/beef-stroganoff.jpg",
     "new": true
@@ -172,16 +172,16 @@
     "id": "22",
     "group": "appetizers",
     "name": "Spinach Salad",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "description": "Almonds, apples, and cranberries with Honey Dijon dressing.",
     "price": 1150,
-    "image": "images/product_placeholder.svg",
+    "image": "images/products/spinach-salad.jpg",
     "new": true
   },
   {
     "id": "23",
     "group": "main",
     "name": "Lobster and Prawn Ravioli",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+    "description": "Sweet Atlantic lobster, tender prawns, celery root ravioli, lobster cream sauce.",
     "price": 1975,
     "image": "images/product_placeholder.svg",
     "new": true
