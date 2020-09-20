@@ -77,7 +77,7 @@
     "name": "Pepperoni Pizza",
     "description": "Double pepperoni topped with an extra layer of cheese.",
     "price": 1650,
-    "image": "images/products/pepperoni-pizza.svg"
+    "image": "images/products/pepperoni-pizza.jpg"
   },
   {
     "id": "11",
@@ -183,7 +183,7 @@
     "name": "Lobster and Prawn Ravioli",
     "description": "Sweet Atlantic lobster, tender prawns, celery root ravioli, lobster cream sauce.",
     "price": 1975,
-    "image": "images/product_placeholder.svg",
+    "image": "images/products/lobster-and-prawn-ravioli.jpg",
     "new": true
   }
 
