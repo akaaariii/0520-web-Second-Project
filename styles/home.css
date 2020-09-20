@@ -4,7 +4,7 @@
     object-fit: cover;
 }
 .carousel-control-prev, .carousel-control-next{
-    z-index: 999;
+    z-index: 100;
 }
 .carousel-caption h1 {
     font-size: 1.5em;
@@ -114,6 +114,7 @@ section .address p {
     bottom: 20%;
     right: 5%;
     display: none;
+    z-index: 200;
 }
 .booking:hover {
     transform: scale(1.1);
