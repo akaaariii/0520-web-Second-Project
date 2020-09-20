@@ -93,7 +93,7 @@
     "name": "Pescatore",
     "description": "Prawns, mussels, squid, mixed seafood tomato sauce.",
     "price": 1795,
-    "image": "images/product_placeholder.svg"
+    "image": "images/products/pescatore.jpg"
   },
   {
     "id": "13",
