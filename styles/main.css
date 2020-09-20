@@ -74,16 +74,16 @@ header {
     padding: 0;
 }
 .navbar-nav .nav-link{
-    color: rgba(0,0,0, 0.9);
+    color: #000 !important;
     font-weight: 500;
     font-size: .8em;
     letter-spacing: 1px;
 }
-header li.active a {
+header li.active a.nav-link {
     font-weight: 700 !important;
     color: #169045 !important;
 }
-header a:hover {
+header a.nav-link:hover {
     color: #169045 !important;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
