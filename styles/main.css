@@ -90,7 +90,8 @@ header a.nav-link:hover {
     padding-right: 1.5rem;
     padding-left: 0;
 }
-header .btn-login {
+header .btn-login,
+header .dropdown-toggle {
     border: none;
     background-color: #ecbaa8 !important;
     outline: none;
@@ -101,13 +102,21 @@ header .btn-login span {
     margin-left: 5px;
     font-weight: 500;
 }
-header .btn-login:hover {
+header .btn-login:hover,
+header .dropdown-toggle:hover {
     cursor: pointer;
     background-color: #267526 !important;
     color: #ecbaa8 !important;
     outline: none;
     border: 0;
     box-shadow: none !important;
+}
+.dropdown-menu {
+    font-size: .8em;
+}
+.dropdown-item:hover {
+    background-color: #545454;
+    color: white;
 }
 
 @media(max-width: 1200px){
