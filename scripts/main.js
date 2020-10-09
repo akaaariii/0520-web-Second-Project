@@ -114,10 +114,8 @@ function logout(emailCookie){
     console.log(document.cookie);
     if(document.cookie === ''){
         location.reload();
-    }
-    
+    } 
 }
-
 
 function login(){
     let email = $('#userEmail').val();
@@ -134,38 +132,9 @@ function login(){
     checkUserLogged();
 }
 
-
 function createElementFromHTML(htmlString) {
     let div = document.createElement('div');
     div.innerHTML = htmlString.trim();
     // Change this to div.childNodes to support multiple top-level nodes
     return div.firstChild; 
 }
-
-
-    // 1. check validation
-    // const ERROR_MESSAGE = {
-    //     requiredEmail : 'email is required',
-    //     validEmail : 'email is not valid',
-    //     requiredPassword : 'password is required'
-    // }
-    // const emailformat = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    // const small = document.createElement('small');
-    // small.classList.add('text-danger');
-    // if(email === ''){
-    //     small.textContent = ERROR_MESSAGE.requiredEmail;
-    // } else if (!emailformat.test(email)){
-    //     small.textContent = ERROR_MESSAGE.validEmail;
-    // } else {
-    //     small.classList.remove('text-danger');
-    //     small.classList.add('text-success');
-    //     small.textContent = "ok";
-    // }
-
-    // if(password === ''){
-    //     small.textContent = ERROR_MESSAGE.requiredPassword;
-    // } else {
-    //     small.classList.remove('text-danger');
-    //     small.classList.add('text-success');
-    //     small.textContent = "ok";
-    // }
