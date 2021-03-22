@@ -6,7 +6,7 @@ We created an Italian Restaurant Website
 
 ## Project Page
 
-[https://akaaariii.github.io/0520-web-Second-Project/](https://akaaariii.github.io/0520-web-Second-Project/)
+[Demo](https://akaaariii.github.io/restaurant-project)
 
 ## Teck Stack
 
