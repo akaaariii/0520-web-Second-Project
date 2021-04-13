@@ -8,7 +8,7 @@ We created an Italian Restaurant Website
 
 [Demo](https://akaaariii.github.io/restaurant-project)
 
-## Teck Stack
+## Tech Stack
 
 * HTML
 * CSS
